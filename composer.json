@@ -13,7 +13,7 @@
     ],
     "require": {
         "php": ">=7.0.0",
-        "encore/laravel-admin": "~1.6",
+        "encore/laravel-admin": "dev-customize",
         "maatwebsite/excel": "^3.1"
     },
     "require-dev": {
@@ -30,6 +30,12 @@
                 "Chenyulingxi\\LaravelAdmin\\GridExporter\\GridExporterServiceProvider"
             ]
 
+        }
+    },
+    "repositories": {
+        "laravel-admin":  {
+            "type": "git",
+            "url": "https://github.com/rechik/laravel-admin.git"
         }
     }
 }
